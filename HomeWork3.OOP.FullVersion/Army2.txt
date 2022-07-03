@@ -1,0 +1,16 @@
+﻿footman
+60
+rifleman
+50
+knight
+40
+priest
+22
+sorceress
+17
+spellbreaker
+20
+gryphonrider
+30
+dragonhawkrider
+5
