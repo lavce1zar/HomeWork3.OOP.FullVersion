@@ -125,17 +125,17 @@ namespace HomeWork3.OOP.FullVersion
 
         public void FindAndPrintUnitsInHealthRange(int startOfRange, int endOfRange)
         {
+            Console.WriteLine($"Looking for units with Health in Range {startOfRange} - {endOfRange} in {Name}.");
+
             foreach (var unit in ArmyOfUnits)
             {
-                Console.WriteLine($"Looking for units with Health in Range {startOfRange} - {endOfRange}.");
-
                 if (unit.Health >= startOfRange && unit.Health <= endOfRange)
                 {
                     Console.WriteLine(unit);
-                }
-
-                Console.WriteLine();
+                }    
             }
+
+            Console.WriteLine();
         }
 
         public void PrintInfo()

@@ -52,6 +52,8 @@ namespace HomeWork3.OOP.FullVersion
 
             army1.PrintUnits();
 
+            army2.FindAndPrintUnitsInHealthRange(400, 590);
+
             army1.PrintInfo();
             army2.PrintInfo();
 
